@@ -1,0 +1,192 @@
+.header,
+.banner {
+	width: 1130px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 200px;
+	height: 98px;
+	background: url(img/LoginImg/mistore_logo.png) no-repeat;
+}
+
+.content {
+	width: 100%;
+	min-height: 588px;
+	position: absolute;
+	left: 0;
+	top: 98px;
+}
+
+.c_left,
+.c_right {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+}
+
+.c_left {
+	background-color: #ca2414;
+	left: 0;
+}
+
+.c_right {
+	background-color: #244c97;
+	left: 50%;
+}
+
+.banner {
+	font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+	height: 588px;
+	background: url(img/LoginImg/banner1.jpg) no-repeat top;
+	position: relative;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	top: 686px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	color: #757575;
+}
+
+.f_top,
+.f_bottom {
+	text-align: center;
+}
+
+.f_top ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.f_bottom a {
+	text-decoration: none;
+	color: #757575;
+}
+
+.L_form {
+	background: white;
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 400px;
+	height: 524px;
+	text-align: center;
+}
+
+.L_type {
+	text-align: center;
+	padding: 25px;
+}
+
+.L_type a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.L_type span {
+	margin: 20px;
+	font-size: 20px;
+	color: #E0E0E0;
+}
+
+.Id {
+	color: #F56600;
+}
+
+.scan {
+	color: #666666;
+}
+
+.hover:hover {
+	color: #F56600;
+	cursor: pointer;
+}
+
+.L_form input {
+	color: #333;
+	width: 306px;
+	padding: 16px;
+	margin: 10px;
+}
+
+#btnLogin {
+	font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+	border: 0;
+	width: 338px;
+	background-color: #F56600;
+	font-size: 18px;
+	color: white;
+}
+
+.L_R_FPwd a,
+.L_R_FPwd span {
+	font-size: 14px;
+	text-decoration: none;
+	color: #B299B2;
+	margin: 3px;
+}
+
+.L_O_type hr {
+	display: inline-block;
+	width: 138px;
+	margin-bottom: 4px;
+	border-top: 1px solid #C9BBC9;
+}
+
+.L_O_type {
+	margin-top: 100px;
+	font-size: 14px;
+	color: #C9BBC9;
+}
+
+.Other_bg {
+	position: relative;
+}
+
+.q,
+.w,
+.a {
+	display: inline-block;
+	background: url(img/LoginImg/icons_type.png) repeat;
+	width: 18px;
+	height: 18px;
+	margin: 4px;
+	background-position: -19px 0;
+}
+
+.w {
+	background-position: -38px 0;
+}
+
+.a {
+	width: 25px;
+	background-position: -56px 0;
+}
+
+.Other_bg a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 16px;
+	background: #666;
+	margin: 10px;
+}
+
+.QQ:hover {
+	background: #244C97;
+	cursor: pointer;
+}
+
+.weibo:hover {
+	background: red;
+	cursor: pointer;
+}
+
+.Alipay:hover {
+	background: orange;
+	cursor: pointer;
+}
